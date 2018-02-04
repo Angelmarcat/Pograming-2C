@@ -1,8 +1,8 @@
-/****************************************************************************************
-************         Angel Guillermo Martínez Cruz                                   ****
-************         PrintPurchaseOrderGui.java                                      ****
-************         This Program calculates and prints a PrintPurchase order report ****
-****************************************************************************************/
+/********************************************************************************
+************ Angel Guillermo Martínez Cruz                                   ****
+************ PrintPurchaseOrderGui.java                                      ****
+************ This Program calculates and prints a PrintPurchase order report ****
+********************************************************************************/
 import javax.swing.JOptionPane;
 
 public class PrintPurchaseOrderGui{
@@ -15,7 +15,7 @@ public class PrintPurchaseOrderGui{
   prices  = Double.parseDouble(JOptionPane.showInputDialog("Enter price of one item: "));
   quantity = Integer.parseInt(JOptionPane.showInputDialog("Enter quantity: "));
 
-  JOptionPane.showMessageDialog(null, "PURCHASE ORDER: \n\n"+"Item:"+itemName+"\nPrice: "+prices+"\nQuantity"+quantity+"\nTotal: $"+ (prices *quantity));
+  JOptionPane.showMessageDialog(null, "PURCHASE ORDER: \n\n"+"Item: "+itemName+"\nPrice: "+prices+"\nQuantity: "+quantity+"\nTotal: $"+ (prices *quantity));
 
   }//end main
 }//end class PrintPurchaseOrderGui
