@@ -1,8 +1,8 @@
-/**********************************************************************
-*************     Angel Guillermo Martinez Cruz            ************
-*************     password.java                            ************
-*************     This pogram solicite password            ************
-**********************************************************************/
+/***********************************************************************
+*************     Angel Guillermo Martinez Cruz            *************
+*************     password.java                            *************
+*************     This pogram solicite password            *************
+***********************************************************************/
 public class password
 {
   private int longitud = 8, contadorNumeros = 0, contadorMayusculas = 0, contadorMinusculas = 0;
